@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 class="seperator">Is Your Birthday Lucky?</h1>
+    <div class="container">
+      <h1 class="seperator">Is Your Birthday Lucky?</h1>
 
-    <label for="dateofbirth">Date Of Birth:</label>
-    <input type="date" name="" id="dateofbirth" />
-    <label for="lucknumber">Lucky Number:</label>
-    <input type="number" name="" id="lucknumber" />
-    <br />
-    <button id="checknumber">Check Number</button>
-    <br />
-    <p id="luckstatus"></p>
+      <label for="dateofbirth">Date Of Birth:</label>
+      <input class="textfield" type="date" name="" id="dateofbirth" required />
+      <label for="lucknumber">Lucky Number:</label>
+      <input class="textfield" type="number" name="" id="lucknumber" required />
+      <br />
+      <button class="textfield font-bold" id="checknumber">Check Number</button>
+      <br />
+      <p class="font-bold" id="luckstatus"></p>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
